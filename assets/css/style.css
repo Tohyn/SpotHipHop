@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#spothiphop{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#slider{
+    width: 300px;
+}
+
+#navigation{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+#cadre{
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 1px 12px 21px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 12px 21px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 12px 21px -6px rgba(0, 0, 0, 0.75);
+}
+
+#navigation i{
+    color: fuchsia;
+    font-size: 50px;
+    transition: all 0.3s;
+}
+
+#navigation i:hover{
+    color: blue;
+    transform: translate(-5px,-5px);
+}
+#bgi{
+    position: fixed;
+    z-index: -1;
+
+    filter: blur(10px) brightness(79%) contrast(101%);
+    -webkit-filter: blur(10px) brightness(79%) contrast(101%);
+    -moz-filter: blur(10px) brightness(79%) contrast(101%);
+    transform: scale(1.1)
+
+}
+#bgi2{
+    width: 100vw;
+}
+
+#slider{
+    position: relative;
+    border: 3px red solid;
+    overflow: hidden;
+}
+
+#coverMove{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#timeline{
+    height: 10px;
+    border-radius: 10%;
+    background-color: gray;
+}
+
+#timeFrame{
+    width: 90%;
+    margin: auto;
+}
+
+#InnerTimeline{
+    height: 10px;
+    background-color: black;
+}
+
+.imgItem {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.divItem {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.divItem span, .divItem i {
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+
+
